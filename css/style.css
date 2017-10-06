@@ -113,27 +113,25 @@ h2 {
 
 /* Buttons */
 .btn {
-    display: inline-block;
-    font-family: 'Montserrat', Arial, sans-serif;
     font-size: 13px;
-    font-weight: 700;
-    line-height: 32px;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 0 -3px 0 #ffffff;
-    vertical-align: middle;
-    padding: 15px 50px 0;
-    margin-top: 100px;
-    height: 50px;
-    background-color: #18CFAB;
+    width: 165px;
+    height: 65px;
     color: #ffffff;
+    background-color: #18CFAB;
+    border-radius: 5px;
+    border: 1px solid #18cfab;
+    border-top: 5px solid #08BF9B;
+    margin-top: 100px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-second {
     background-color: #00CBF6;
     margin-left: 30px;
 }
+
+
 
 /* End Buttons */
 /* End Bunner */
@@ -217,6 +215,12 @@ h2 {
     font-weight: 300;
     line-height: 25px;
 }
+
+.float-svg {
+    float: left;
+    padding-right: 20px;
+}
+
 /* End Creative Amazing Features */
 
 
@@ -335,19 +339,22 @@ h2 {
 
 .work-btn {
     display: flex;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 5px;
     align-items: center;
     justify-content: center;
+    font-size: 13px;
     width: 165px;
     height: 60px;
-    padding: 10px 50px 10px;
-    margin: 70px auto;
-    background-color: #18cfab;
     color: #ffffff;
+    background-color: #18CFAB;
+    border-radius: 5px;
+    border: 1px solid #18cfab;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 70px auto;
+}
+
+.work-btn img {
+    margin-right: 15px;
 }
 
 .service h2 {
@@ -440,6 +447,19 @@ h2 .sm-text {
     line-height: 90px;
     color: #d8d8d8;
 }
+
+.small-banner-btn {
+    font-size: 13px;
+    width: 165px;
+    height: 65px;
+    color: #ffffff;
+    background-color: #18CFAB;
+    border-radius: 5px;
+    border: 1px solid #18cfab;
+    border-top: 5px solid #08BF9B;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 /* End Small banner */
 
 
@@ -494,19 +514,17 @@ h2 .sm-text {
 }
 
 .news-content h4 {
-    color: #717171;
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 20.97px;
+    color: #717171;
 }
 
 .news-content p {
-    color: #777777;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 20.97px;
+    color: #777777;
 }
 
 .news-block:hover h4 {
@@ -580,12 +598,11 @@ h2 .sm-text {
 }
 
 .total-circle h4 {
-    height: 26px;
-    color: #ffffff;
-    font-family: Montserrat;
     font-size: 36px;
     font-weight: 400;
     line-height: 72px;
+    height: 26px;
+    color: #ffffff;
     text-transform: uppercase;
     padding-top: 5px;
 }
@@ -602,3 +619,572 @@ h2 .sm-text {
     display: inline-block;
 }
 /* End Total */
+
+
+/* Pricing Table */
+.pricing {
+    margin: 100px 0;
+}
+
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+.pricing-wrap {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #eceeef;
+    border-radius: 5px;
+}
+
+.pricing-wrap:hover {
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
+.pricing-wrap h3 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 18px;
+    color: #717171;
+    text-transform: uppercase;
+}
+
+.pricing-wrap:hover h3 {
+    color: #18cfab;
+}
+
+.pricing-wrap h4 {
+    padding-top: 5px;
+    background-color: #2e4a5b;
+    margin: 0;
+    color: #ffffff;
+    font-size: 39px;
+    font-weight: 700;
+    padding: 26px;
+}
+
+.pricing-wrap:hover h4 {
+    background-color: #18cfab;
+}
+
+.pricing-wrap .date {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.15px;
+}
+
+.pricing-line {
+    line-height: 46px;
+    border-top: 1px solid #eceeef;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricing-btn {
+    width: 170px;
+    height: 50px;
+    background-color: #2e4a5b;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin: 23px 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pricing-wrap:hover .pricing-btn {
+    background-color: #18cfab;
+}
+/* End Pricing Table */
+
+
+/* Feedback */
+.feedback {
+    text-align: center;
+    background-color: #2E404D;
+    padding-bottom: 215px;
+    padding-top: 100px;
+}
+
+.feedback h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}
+
+.feedback-wrap h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #18CFAB;
+    padding-top: 20px;
+}
+
+.feedback-h3 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: none;
+    color: #AFB0B1;
+}
+
+.feedback p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 40px;
+    color: #AFB0B1;
+}
+/* End Feedback */
+
+
+/* Our Team */
+.team-wrap {
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.team h2 {
+    text-align: center;
+    margin-top: 100px;
+    color: #4e4e4e;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.team-photo {
+    width: 100%;
+    display: block;
+}
+
+.team-name {
+    text-align: left;
+    background-color: #2e4a5b;
+    color: #fff;
+    padding: 15px 0 15px 15px;
+}
+
+.team-name h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-name h4 {
+    color: #18cfab;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.team-soc-icon {
+    width: 25%;
+    float: left;
+    height: 65px;
+    background-color: #2e4a5b;
+    border: 1px solid #728591;
+    border-bottom: none;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    box-sizing:border-box;
+}
+
+.soc-link {
+    height: 20px;
+    width: 20px;
+}
+
+.team-block:hover .team-name {
+   background-color: #18cfab;
+}
+
+.team-block:hover .team-icons .team-soc-icon {
+   background-color: #18cfab;
+   border-color: #9EEBDB;
+}
+
+.team-block:hover .team-name h4 {
+   color: #2E4D5D;
+}
+
+.team-block:hover .team-icon {
+   background-color: #18cfab;
+   border: 1px solid #9EEBDB;
+   border-bottom: none;
+}
+/* End Our Team */
+
+
+/* Theme */
+.theme {
+    margin-top: 100px;
+    padding: 85px 0 25px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #233641;
+}
+
+.theme h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.theme .green-text {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 65px;
+    color: #18CFAB;
+    text-transform: uppercase;
+}
+
+.theme-block {
+    float: left;
+    width: 50%;
+}
+
+.theme-img {
+    width: 130%;
+    margin-top: 50px;
+}
+
+.theme-block ul {
+    list-style: none;
+}
+
+.theme-block ul li {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.theme-icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.theme-btn {
+    float: left;
+    font-size: 13px;
+    width: 166px;
+    height: 60px;
+    border: none;
+    outline: 0;
+    color: #ffffff;
+    background-color: #18cfab;
+    border-top: 5px solid #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 25px;
+    cursor:pointer;
+}
+/* End Theme */
+
+
+/* Contact */
+.contact {
+    padding: 130px 0 130px 0;
+}
+
+.contact-block {
+    width: 50%;
+    float: left;
+}
+
+.img-map {
+    width: 100%;
+    min-height: 550px;
+}
+
+.messages {
+    max-width: 580px;
+    width: 100%;
+    min-height: 550px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.messages h2 {
+    color: #4E4E4E;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.contact-line {
+    margin-left: 80px;
+}
+
+.messages form {
+    margin-top: 65px;
+}
+
+.messages input {
+    outline: 0;
+    padding-left: 17px;
+    width: calc(100% - 17px);
+    height: 55px;
+    font-size: 14px;
+    color: #90aebd;
+    border: 1px solid #d4e0de;
+    margin-bottom: 15px;
+}
+
+.messages textarea {
+    outline: 0;
+    padding-left: 17px;
+    padding-top: 15px;
+    width: calc(100% - 17px);
+    height: 170px;
+    font-size: 14px;
+    color: #90aebd;
+    border: 1px solid #d4e0de;
+    margin-bottom: 15px;
+}
+
+.contact-btn {
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: #18cfab;
+    border-radius: 5px;
+    border: 2px solid #18cfab;
+    border-bottom: 5px solid #08BF9B;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* End Contact */
+
+
+/* Footer */
+footer {
+    padding: 105px 0 130px 0;
+
+    background-color: #1C2B33;
+}
+
+.info {
+    background-color: #1C2B33;
+    padding-top: 80px;
+}
+.footer-wrap {
+    display: flex;
+    
+}
+.first-block {
+    width: 23%;
+    padding-top: 15px;
+}
+
+.footer-logo {
+    max-width: 250px;
+}
+
+.logo-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    padding: 25px 0 40px 0;
+    color: #B2B2B2;
+}
+
+.adress h4 {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b2b2b2;
+    margin: 0 0;
+}
+
+.adress p {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.adress-h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #b2b2b2;
+}
+
+.second-block {
+  width: 35%;
+}
+
+.second-block h4 {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+.post {
+    display: flex;
+    border-bottom: 1px solid #294453;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.without-line {
+    border-bottom: none;
+}
+
+.post:hover {
+    color: #18CFAB;
+}
+
+.image-post {
+    width: 20%;
+}
+
+.post-text {
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.post-text h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.post-text p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b2b2b2;
+    padding-bottom: 5px ;
+    margin: 0;
+}
+
+.small-date {
+    font-size: 14px;
+    line-height: 30px;
+    color: #f1f1f1;
+}
+
+.third-block {
+    width: 22%;
+    margin-right: 20px;
+}
+.third-block h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.tags {
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #294453;
+}
+
+.tag {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #B8B8B8;
+    text-align: center;
+    padding: 5px 0;
+    width: 70px;
+    border: 1px solid #ACACAC;
+}
+
+.third-block-text input {
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: #22353f;
+    border: 1px solid #22353f;
+    color: #fff;
+    width: 190px;
+    height: 40px;
+    outline: 0;
+}
+
+.third-block-text p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b2b2b2;
+}
+
+.footer-btn {
+    background-color: #294453;
+    border: 1px solid #294453;
+    color: #18cfab;
+    padding: 12px 10px;
+    outline: 0;
+    font-size: 14px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.four-block {
+    width: 20%;
+}
+
+.four-block h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.flicke-feed {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.flicke-feed img {
+    padding: 0 10px 10px 0;
+}
+
+.second-footer {
+    background-color: #22353F;
+    padding: 45px 0 50px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #AEAEAE;
+}
+
+.second-footer a {
+    color: #18CFAB;
+    text-decoration: none;
+}
+/* End Footer */
